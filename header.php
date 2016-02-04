@@ -36,11 +36,17 @@
                                                 Inicio
                                             </a>
                                         </li>
+                                        <li class="<?php echo validarHeader("about") ?>">
+                                            <a href="about-us.php?header=about">
+                                                Nosotros
+                                            </a>
+                                        </li>
                                         <li class="<?php echo validarHeader("login") ?>">
                                             <a href="login_page.php?header=login">
                                                 Login
                                             </a>
                                         </li>
+                                        
                                     </ul>
                                 </nav>
                             </div>

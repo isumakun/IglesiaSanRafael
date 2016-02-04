@@ -25,17 +25,6 @@ if ((isset($_POST["usuario"])) && (isset($_POST["password"]))) {
         $result = mysql_query($sql2, $link);
         $usuario = mysql_result($result, 0);
 
-        if (validarFicha($usuario)) {
-            $idAsp = getIDByUser($usuario);
-            $sqlcargo = "select tipocargo from fichatrabajo where Aspirante_idAspirante= $idAsp";
-            $result = mysql_query($sql2, $link);
-            $tipocargo = mysql_result($result, 0);
-            if (strpos($tipocargo, 'Jefatura') !== false) {
-                $_SESSION['cargo'] = 'jefe';
-            }else{
-                 $_SESSION['cargo'] = 'aux';
-            }
-        }
 
         if ($contra == $_POST["password"]) {
 
@@ -54,10 +43,10 @@ if ((isset($_POST["usuario"])) && (isset($_POST["password"]))) {
                 }
             }
         } else {
-            header("Location: login.php?estado=contra");
+            header("Location: login_page.php?estado=contra");
         }
     } else {
-        header("Location: login.php?estado=nousuario");
+        header("Location: login_page.php?estado=nousuario");
     }
 }
 mysql_close($link);

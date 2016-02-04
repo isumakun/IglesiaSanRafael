@@ -28,6 +28,7 @@
                 <div class="box-header" style="padding-top: 10px; padding-bottom: 10px; margin-bottom: 10px">
                     <img src="img/logo-white.png"/>
                 </div>
+                <form method="POST" action="login.php">
                 <label for="username">Usuario</label>
                 <br/>
                 <input type="text" id="username" name="usuario">
@@ -40,6 +41,7 @@
                 <button type="button"><a href="index.php?header=inicio" style="color: white">Volver</a></button>
                 <br/>
                 <a href="#"><p class="small">Olvidaste la contraseña?</p></a>
+                </form>
             </div>
         </div>
     </body>
