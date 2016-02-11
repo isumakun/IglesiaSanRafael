@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="logincss/css/style.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <?php require './admin/estados.php'; ?>
     </head>
 
     <body>

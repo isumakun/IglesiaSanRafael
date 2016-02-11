@@ -34,7 +34,7 @@ if ((isset($_POST["usuario"])) && (isset($_POST["password"]))) {
             $_SESSION['autenticado'] = "autenticado";
 
             if ($_SESSION['tipo'] == 1) {
-                header("Location: index.php");
+                header("Location: admin/index.php");
             } else {
                 if (validarFicha($usuario)) {
                     header("Location: pruebas.php");

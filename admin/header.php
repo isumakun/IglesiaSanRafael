@@ -11,7 +11,7 @@
             <ul class="nav navbar-nav">
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
-                <a href="#">
+                <a href="../login_page.php?estado=logout">
                   <span class="hidden-xs">Cerrar Sesión</span>
                 </a>
               </li>

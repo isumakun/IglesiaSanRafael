@@ -52,6 +52,26 @@
                 <li><a href="#"><i class="fa fa-list"></i> Lista Boletas</a></li>
               </ul>
             </li>
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-users"></i>
+                <span>Personas</span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="#"><i class="fa fa-plus-circle"></i> Nueva Persona</a></li>
+                <li><a href="listaPersonas.php"><i class="fa fa-list"></i> Lista Personas</a></li>
+              </ul>
+            </li>
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-desktop"></i>
+                <span>Comunidades</span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="#"><i class="fa fa-plus-circle"></i> Nueva Comunidad</a></li>
+                <li><a href="listaComunidades.php"><i class="fa fa-list"></i> Lista Comunidades</a></li>
+              </ul>
+            </li>
         </section>
         <!-- /.sidebar -->
       </aside>
