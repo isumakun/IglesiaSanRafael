@@ -4,8 +4,8 @@
             <div class="header-row">
                 <div class="header-column">
                     <div class="header-logo">
-                        <a href="index.php" style="background-color: transparent !important">
-                            <img alt="Porto" width="150" height="60" data-sticky-width="82" data-sticky-height="30" data-sticky-top="40" src="img/logo.png">
+                         <a href="http://localhost/IglesiaSanRafael/index.php" style="background-color: transparent !important">
+                            <img alt="Porto" width="150" height="60" data-sticky-width="82" data-sticky-height="30" data-sticky-top="40" src="http://localhost/IglesiaSanRafael/img/logo.png">
                         </a>
                     </div>
                 </div>

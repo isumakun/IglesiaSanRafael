@@ -1,13 +1,19 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link href="../bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="../bootstrap-3.3.6-dist/js/jquery-2.2.0.min.js"></script>
+        <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../../vendor/jquery/jquery.min.js"></script>
     </head>
     <body>
 
         <?php
-            include '../crudBoletas/buscarDetalleBoleta.php';
+        if (isset($_GET['msj'])) {
+            if ($_GET['msj'] == "guardado") {
+                echo '<script>alert("Se han guardado los cambios");</script>';
+            }
+        }
+            include '../crudBoletas/buscarBoleta.php';
+            if(isset($comunidad) and isset($encargado) and isset($_GET['nb'])){
             ?>
             <section class="container1" style="margin-left: 0px;margin-right: 0px;">
                 <form action="../crudBoletas/updateBoleta.php" method="post">
@@ -42,7 +48,7 @@
                                     <br>
                                     <button class="btn btn-primary" type="submit">Guardar</button>
                                 </div>
-                            <?php ?>
+                            <?php }?>
                         </div>
                     </div>
                 </div>
@@ -50,4 +56,3 @@
         </section>
     </body>
 </html>
-
