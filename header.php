@@ -56,6 +56,16 @@
                                                 Contáctanos
                                             </a>
                                         </li>
+                                        <li class="">
+                                            <a href="">
+                                                Sobre Nosotros
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="">
+                                                Contáctanos
+                                            </a>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
