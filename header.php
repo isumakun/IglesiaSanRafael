@@ -36,9 +36,34 @@
                                                 Inicio
                                             </a>
                                         </li>
+                                        <li class="<?php echo validarHeader("about") ?>">
+                                            <a href="about-us.php?header=about">
+                                                Nosotros
+                                            </a>
+                                        </li>
                                         <li class="<?php echo validarHeader("login") ?>">
                                             <a href="login_page.php?header=login">
                                                 Login
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="">
+                                                Sobre Nosotros
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="">
+                                                Contáctanos
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="">
+                                                Sobre Nosotros
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="">
+                                                Contáctanos
                                             </a>
                                         </li>
                                         <li class="">

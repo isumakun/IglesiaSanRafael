@@ -79,7 +79,7 @@ p.small {
 }
 
 .login-box .box-header {
-	background-color: #665851;
+	background-color: #3c8dbc;
 	margin-top: 0;
 	border-radius: 5px 5px 0 0;
 }
@@ -104,9 +104,9 @@ p.small {
 
 .login-box input:focus {
 	outline: none;
-	border-color: #665851;
+	border-color: #3c8dbc;
 	transition: 0.5s;
-	color: #665851;
+	color: #3c8dbc;
 }
 
 .login-box button {
@@ -119,7 +119,7 @@ p.small {
 	font-weight: 400;
 	font-size: 0.7em;
 	letter-spacing: 1px;
-	background-color: #665851;
+	background-color: #3c8dbc;
 	cursor:pointer;
 	outline: none;
 }
@@ -135,7 +135,7 @@ p.small {
 }
 
 .selected {
-	color: #665851!important;
+	color: #3c8dbc!important;
 	transition: 0.5s;
 }
 

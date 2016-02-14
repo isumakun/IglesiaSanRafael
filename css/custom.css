@@ -1,11 +1,11 @@
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #fff !important;
-    background-color: #665851 !important;
+    background-color: #3c8dbc !important;
 }
 
 .btn-primary {
     color: #fff !important;
-    background-color: #665851 !important;
+    background-color: #3c8dbc !important;
     border-color: #2e6da4 !important;
 }
 
@@ -14,5 +14,5 @@ a {
 }
 
 a:hover, a:focus {
-    background-color: #665851 !important;
+    background-color: #3c8dbc !important;
 }
